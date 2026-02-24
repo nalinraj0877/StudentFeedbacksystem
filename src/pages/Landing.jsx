@@ -2,7 +2,13 @@ import { Link } from "react-router-dom";
 
 function Landing() {
   return (
-    <div style={{ padding: "40px", textAlign: "center" }}>
+    <div style={{
+  height: "100vh",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  flexDirection: "column"
+}}>
       <h1>Student Feedback & Evaluation System</h1>
       <p>Enhancing academic quality through structured feedback.</p>
 
